@@ -1,19 +1,22 @@
-import Header from "./components/Header";
-import './style/app.css';
+// import Header from "./components/Header";
+// import './style/app.css';
+import ListItem from "./components/ListItem";
+import { Component } from "react";
 
-function App() {
-    let color = "red";
-    let number = [1,2,3,4]
-  return (
-    <>
-      <h1 className='blue-text'>demo</h1>
-      <Header></Header>
-      <h2 style = {{color: color}}>sơn bùi ngu {color}</h2>
-      {number.map((num) => (
-        <p key={num}>{num}</p>
-      ))}
-    </>
-  )
+class App extends Component{
+  
+    render(){
+      function handleClick(event: React.MouseEvent) {
+      console.log(event);
+    }
+        return <>
+        <h1 onClick={handleClick}>Demo Props</h1>
+              <ul>
+                <ListItem content = "Ptrang">
+                  <h2>Nội dung bên trong ListItem</h2>
+                </ListItem>
+              </ul>
+        </>
+    }
 }
-
 export default App
