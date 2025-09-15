@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Có thể thêm style custom nếu cần */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}

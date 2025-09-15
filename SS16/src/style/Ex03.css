@@ -1,0 +1,23 @@
+.btn-primary{
+    background-color: #0d6efd;
+}
+.btn-Secdary{
+    background-color: #6c757d;
+}
+.btn-Success{
+    background-color: #6c757d;
+}.btn-Warning{
+    background-color: #ffc107;
+}.btn-Danger{
+    background-color: #dc3545;
+}.btn-Info{
+    background-color: #0dcaf0;
+}.btn-Light{
+    background-color: #f8f9fa; color:black;
+}.btn-Dark{
+    background-color: #323234;
+}.btn-link{
+    background: none;
+    color: #0d6efd;
+    text-decoration: underline;
+}
